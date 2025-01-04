@@ -55,7 +55,7 @@ export default {
                     ElMessageBox.alert(informText, "提示", {
                         confirmButtonText: "进入主页"
                     })
-                    this.$router.push('/')
+                    this.$router.push('/home')
                 } else {
                     const message =  response.data.message
                     ElMessageBox.alert(message, "提示", {

@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/Login">返回登录</router-link>
+    <router-link to="/">返回登录</router-link>
     <h1>Home Page</h1>
     <p>Welcome to the Home Page!</p>
 </template>

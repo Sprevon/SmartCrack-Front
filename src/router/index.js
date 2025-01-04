@@ -4,12 +4,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 // 定义路由
 const routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'Home',
         component: () => import('../views/Home.vue') // 懒加载组件
     },
     {
-        path: '/Login',
+        path: '/',
         name: 'Login',
         component: () => import('../views/Login.vue') // 懒加载组件
     }
